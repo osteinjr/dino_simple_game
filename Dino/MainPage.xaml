@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Dino.MainPage">
+    <StackLayout>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="30"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Label Text="Dino Game" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" Grid.Row="0" Grid.ColumnSpan="3"/>
+            <StackLayout Grid.Row="1" Grid.ColumnSpan="3" Orientation="Horizontal" HorizontalOptions="Center">
+                <Label x:Name="lblScore1" Text="0" FontSize="Medium" FontAttributes="Bold"/>
+                <Label Text="X" FontSize="Medium" FontAttributes="Bold"/>
+                <Label x:Name="lblScore2" Text="0" FontSize="Medium" FontAttributes="Bold"/>
+            </StackLayout>
+        </Grid>
+        <StackLayout Orientation="Horizontal">
+            <Grid RowSpacing="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Image x:Name="p1"  Source="d1" Aspect="AspectFit" Grid.Row="0" Grid.Column="0"/>
+                <Label x:Name="lblP1Power" Padding="5" HorizontalOptions="End" HorizontalTextAlignment="End" FontAttributes="Bold" TextColor="Red" FontSize="32" Grid.Row="0" Grid.Column="0"/>
+                <Image x:Name="p2" Source="d2" Grid.Row="0" Grid.Column="1" Aspect="AspectFit"/>
+                <Label x:Name="lblP2Power" Padding="5" HorizontalOptions="End" HorizontalTextAlignment="End" FontAttributes="Bold" TextColor="Red" FontSize="32" Grid.Row="0" Grid.Column="1"/>
+            </Grid>
+        </StackLayout>
+        <Button Text="Lutar" Clicked="Button_Clicked"/>
+        <Label x:Name="lblResult" Text="" FontSize="Large" FontAttributes="Bold" HorizontalTextAlignment="Center" Grid.Row="0" Grid.ColumnSpan="3"/>
+    </StackLayout>
+</ContentPage>

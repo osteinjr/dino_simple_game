@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dino.Android", "Dino.Android\Dino.Android.csproj", "{2FA14D82-B981-4C78-B64B-AE102869301A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dino", "Dino\Dino.csproj", "{B54E7B1E-3040-4BF8-B4C0-231AB457BD95}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FA14D82-B981-4C78-B64B-AE102869301A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FA14D82-B981-4C78-B64B-AE102869301A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FA14D82-B981-4C78-B64B-AE102869301A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{2FA14D82-B981-4C78-B64B-AE102869301A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FA14D82-B981-4C78-B64B-AE102869301A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FA14D82-B981-4C78-B64B-AE102869301A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B54E7B1E-3040-4BF8-B4C0-231AB457BD95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B54E7B1E-3040-4BF8-B4C0-231AB457BD95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B54E7B1E-3040-4BF8-B4C0-231AB457BD95}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B54E7B1E-3040-4BF8-B4C0-231AB457BD95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B54E7B1E-3040-4BF8-B4C0-231AB457BD95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B54E7B1E-3040-4BF8-B4C0-231AB457BD95}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF200A6E-DF8F-4040-B9F2-46DFE41BC607}
+	EndGlobalSection
+EndGlobal
